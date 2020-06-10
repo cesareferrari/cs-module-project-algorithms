@@ -4,7 +4,7 @@ Returns: an integer
 '''
 def single_number(arr):
 
-    # pop first element of arr into `single` list
+    # initialize single list with first element of arr
     single = [arr[0]]
 
     # iterate through rest of arr
